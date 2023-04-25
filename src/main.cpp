@@ -38,11 +38,11 @@ TUKeyboard *keyboard;
 #define sticks_deadzone 8
 #define triggers_deadzone 40
 
-#define sticks_sensitivity 64 //Used for Buttons and Keyboard mode. The lower, the more sensible the levers are.
+#define sticks_sensitivity 64 //Used for Keyboard mode. The lower, the more sensible the sticks are.
 
 void setup() {
     pixels.begin();
-    pixels.setPixelColor(0, pixels.Color(5, 0, 0)); // red light indicates that the firmware is booting
+    pixels.setPixelColor(0, pixels.Color(5, 0, 0)); // Red light indicates that the firmware is booting
     pixels.show();
 
     gpio::init_pin(LZ_PIN, gpio::GpioMode::GPIO_INPUT_PULLUP); //L1 (Z2). Only does something if you are adding a second z button.
