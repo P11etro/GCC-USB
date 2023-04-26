@@ -162,7 +162,7 @@ void loop() {
         pixels.show();
         
         gc->WaitForPoll();
-        gc_report.z = !gpio::read_digital(6)+gc_report.z; // The additional button defaults to a secondary z button
+        gc_report.z = !gpio::read_digital(LZ_PIN)+gc_report.z; // The additional button defaults to a secondary z button
         gc->SendReport((gc_report_t *)&gc_report);
     }
 
