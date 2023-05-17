@@ -181,7 +181,7 @@ To build the customized firmware you will need Visual Studio Code and the [Platf
 
 ## Acknowledgments
 * [@JonnyHaystack](https://github.com/JonnyHaystack) - for helping me a lot from the very beginning of this project, and for the following libraries: TUGamepad, Adafruit_TinyUSB_XInput, joybus-pio.
-* [@Crane1195](https://github.com/Crane1195) - for adding PlatformIO support for arduino-pico
+* [@Crane1195](https://github.com/Crane1195) - for designing the Model-U boards, and for his help on the hardware side of the build
 
 ## License
 This project is licensed under the GNU GPL Version 3 - see the [LICENSE](LICENSE) file for details
